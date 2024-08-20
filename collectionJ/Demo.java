@@ -1,8 +1,8 @@
 package collectionJ;
-
 import java.util.Arrays;
 import java.util.Scanner;
-
+/*"In a array of 4 size store four values in it from human input and consider those 4 values are the 4 length of the rectangle.
+Please a logic to find out the area for the same[write the program in eclipse and copy paste the program here]"*/
 public class Demo
 {
 	public static void main(String[] args)
