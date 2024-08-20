@@ -10,8 +10,8 @@ public class OutsidePackage extends AccessSpefic
 	{
 		AccessSpefic.add();
 		AccessSpefic.sub();
-		AccessSpefic.mul();
-		AccessSpefic.div();
+		//AccessSpefic.mul();
+		//AccessSpefic.div();
 
 	}
 
