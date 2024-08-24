@@ -7,14 +7,20 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Program3 
 {
 
-	public static void main(String[] args)
+	public static void main(String[] args) throws InterruptedException
 	{
 		ChromeDriver cd=new ChromeDriver();
 		cd.get("https://google.com");
 		cd.manage().window().maximize();
+		
+		System.out.println(cd.getWindowHandles());
+		System.out.println(cd.getWindowHandle());
+		System.out.println(cd.getTitle());
+		
 		cd.findElement(By.name("q")).sendKeys("India");
-		cd.findElement(By.name("btnk")).click();
-		cd.close();	
+		cd.findElement(By.id("APjFqb")).click();
+		Thread.sleep(5000);
+		cd.quit();	
 
 	}
 
