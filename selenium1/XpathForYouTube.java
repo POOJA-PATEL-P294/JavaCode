@@ -17,8 +17,8 @@ public class XpathForYouTube
 		e.sendKeys("grotechminds");
 		e.sendKeys(Keys.ENTER);
 		
-		/*WebElement q=driver.findElement(By.xpath("//div[@class='yt-spec-touch-feedback-shape__fill']"));
-		q.click();*/
+		WebElement q=driver.findElement(By.xpath("//div[@class='yt-spec-touch-feedback-shape__fill']"));
+		q.click();
 		
 		Thread.sleep(3000);
 		driver.quit();
